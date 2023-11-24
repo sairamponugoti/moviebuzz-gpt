@@ -8,7 +8,7 @@ const SecondaryContainer = () => {
   );
   if (!nowPlayingMovies) return;
   return (
-    <div>
+    <div className="-mt-24 z-20 relative">
       <MovieList title={"Now Playing"} movies={nowPlayingMovies} />
       <MovieList title={"Trending Now"} movies={nowPlayingMovies} />
       <MovieList title={"Popular"} movies={nowPlayingMovies} />

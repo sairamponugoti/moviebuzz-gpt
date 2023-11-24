@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
 /* Customize website's scrollbar like Mac OS
 Not supports in Firefox and IE 
 https://gist.github.com/spemer/a0e218bbb45433bd611e68446523a00b
@@ -30,7 +40,7 @@ body::-webkit-scrollbar-button {
 }
 
 .scrollbar {
-  overflow: overlay;
+  /* overflow: overlay; */
   scrollbar-gutter: stable;
 }
 
